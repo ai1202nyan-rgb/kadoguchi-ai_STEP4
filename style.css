@@ -1,0 +1,73 @@
+/* 全体のベース設定 */
+body {
+    /* TODO: フォントを設定しよう */
+    font-family: sans-serif;
+    /* TODO: 背景色を設定しよう */
+    background-color: #fadbda;
+    /* TODO: 文字色を設定しよう */
+    color: #333;
+    /* TODO: 行の高さを設定しよう */
+    line-height: 2.0;
+    /* TODO: 外側余白をリセットしよう */
+    margin: 0;
+    /* TODO: 内側余白もリセットしよう */
+    padding: 20px;
+  }
+  
+  
+  h1{
+      text-align: center;
+      color:brown;
+     }
+  
+  form{
+   background-color:azure;
+   max-width:600px;
+   text-align: left;
+   margin:0 auto;
+   padding:20px;
+   border-radius:8px;
+   box-shadow:0 2px 5px 
+  }
+
+  label{
+    display:block;
+    margin-bottom:6px;
+  }
+ 
+  input[type="text"],
+  input[type="number"],
+  input[type="telphone"],
+  input[type="email"],
+  select,
+  textarea{
+    width:500px;
+    padding:10px;
+    margin-bottom:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+  }
+ 
+
+  button{
+    /* TODO: 背景色を設定 */
+    background-color: blue;
+    /* TODO: 文字色を白に */
+    color:white;
+    /* TODO: 枠線なしにする */
+    border: none;
+    /* TODO: クリックしやすく余白を追加 */
+    padding: 12px 20px;
+    /* TODO: 角を丸める */
+    border-radius: 4px;
+    /* TODO: カーソルを指マークに */
+    cursor: pointer;
+    text-align: left;
+    margin-top: 12px;
+  }
+  
+  button:hover {
+    background-color: #0011ff; /* 少し濃い色に */
+    transform: scale(1.05);    /* 軽く大きくする */
+  }
+  
