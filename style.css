@@ -36,8 +36,7 @@ body {
   }
  
   input[type="text"],
-  input[type="number"],
-  input[type="telphone"],
+  input[type="tel"],
   input[type="email"],
   select,
   textarea{
@@ -47,7 +46,6 @@ body {
     border:1px solid #ccc;
     border-radius:4px;
   }
- 
 
   button{
     /* TODO: 背景色を設定 */
